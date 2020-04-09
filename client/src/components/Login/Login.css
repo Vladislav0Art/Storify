@@ -1,0 +1,104 @@
+.login-wrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+.login-logo {
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 46px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #88D5E9;
+}
+
+.login-logo:hover {
+  color: #0ff0bb;
+}
+
+.login-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.login-group label {
+  margin-right: 15px;
+  font-weight: bold;
+  color: #000;
+}
+
+.login-group input {
+  background-color: transparent;
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  border-radius: 2px;
+	padding: 7px;
+  margin:0px;
+  transition:  all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+
+.login-group input:focus {
+	-moz-box-shadow: 0 0 6px #88D5E9;
+	-webkit-box-shadow: 0 0 6px #88D5E9;
+	box-shadow: 0 0 6px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+
+.login-submit {
+  margin: 0 0 40px 0;
+  background: #4B99AD;
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-submit:hover {
+  -moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+}
+
+.admin-btn {
+  background: #4B99AD;
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.admin-btn:hover {
+  -moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+}

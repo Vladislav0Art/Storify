@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  
+  .footer__content {
+    flex-direction: column;
+  }
+
+  .footer__links {
+    margin: 60px 0;
+  }
+
+  .footer__menu {
+    text-align: center;
+  }
+
+}

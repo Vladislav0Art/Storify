@@ -1,0 +1,23 @@
+.cats__elem {
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.cats__elem::first-letter {
+  text-transform: uppercase;
+}
+
+.cats__elem:hover {
+  color: #23e2b6;
+}
+
+.cats__elem-active {
+  color: #29f1c3;
+  font-weight: bold;
+}
+
+.cats__elem-chosen {
+  color: #29f1c3;
+}

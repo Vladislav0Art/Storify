@@ -1,0 +1,7 @@
+@media (max-width: 992px) {
+  .goods__elem-parag {
+    font-size: 10px;
+    line-height: 1.6;
+    max-width: none;
+  }
+}

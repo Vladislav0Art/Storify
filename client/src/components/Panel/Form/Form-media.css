@@ -1,0 +1,12 @@
+@media (max-width: 768px) {  
+  .form-group {
+    flex-direction: column;
+    margin-bottom: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .form-label {
+    margin-bottom: 10px;
+  } 
+}

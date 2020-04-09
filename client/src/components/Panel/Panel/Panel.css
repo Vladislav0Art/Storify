@@ -1,0 +1,29 @@
+.msg-block {
+  margin: 10px 0;
+}
+
+.error-block {
+  color: #e32020;
+}
+
+.success-block {
+  color: #24a2c2;
+}
+
+.commands {
+  margin: 20px 0;
+}
+
+.commands-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+
+.section-title {
+  margin-top: 40px;
+  color: #24a2c2;
+  text-transform: uppercase;
+}

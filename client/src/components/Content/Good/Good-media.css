@@ -1,0 +1,21 @@
+@media (max-width: 992px) {
+  .goods__elem-title {
+    font-size: 32px;
+  }
+  .goods__elem-parag {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .goods__elem {
+    height: 420px;
+  }
+  .goods__elem-title {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .goods__elem-parag {
+    font-size: 12px;
+  }
+}

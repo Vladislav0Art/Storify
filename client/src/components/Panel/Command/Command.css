@@ -1,0 +1,29 @@
+.commands-item {
+  margin: 15px 0;
+}
+
+.commands-descr {
+  display: inline-block;
+  margin-right: 15px;
+  color: #24a2c2;
+  font-size: 18px;
+}
+
+.commands-trigger {
+  background: #4B99AD;
+  transition: 0.3s ease-in-out;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 16px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.commands-trigger:hover {
+  -moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .slider__elem {
+    height: 450px;
+    margin: 0;
+  }
+  .slider__elem-title {
+    font-size: 18px;
+  }
+  .slider__elem-parag {
+    font-size: 12px;
+  }
+  .slider__elem-link {
+    padding: 10px 16px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+}
